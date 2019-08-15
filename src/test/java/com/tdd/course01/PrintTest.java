@@ -1,8 +1,10 @@
-package com.tdd;
+package com.tdd.course01;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.tdd.course01.Print;
 
 public class PrintTest {
 	
