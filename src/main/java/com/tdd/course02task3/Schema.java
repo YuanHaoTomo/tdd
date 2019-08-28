@@ -18,12 +18,12 @@ public class Schema {
 
 	public Object getValue(String key, String value) {
 		switch (String.valueOf(schema.get(key))) {
-		case "bool":
-			return "true".equals(value);
-		case "int":
-			return value==null || value.equals("") ? 0 : new Integer(value);
-		default:
-			return value;
+				case "bool":
+					return "true".equals(value);
+				case "int":
+					return value==null || value.equals("") ? 0 : new Integer(value);
+				default:
+					return value;
 		}
 	}
 }
